@@ -1,20 +1,3 @@
-/* 
-Main.js manages the training, classification, and output of sign language gestures. 
-
-- The Main class is responsible for altering page elements on the user interface such as buttons,
-video elements, etc. It is also handles the training, prediction, and video call features.
-- The PredictionOutput class converts the predicted text passed by Main into text, image, and audio
-output. This class is also responsible for turning a caller's words into speech in video call mode.
-
-Credits:
-The kNN Classifier used for this project was created by Google TensorFlow. 
-The kNN classifier requires the computation of random numbers that is not readily available on JavaScript.
-To accomplish this, the work of Johannes Baagøe on "implementations of Randomness in Javascript" was used.
-Additionally, usage of TensorFlow was learned from Abishek Singh's "alexa-sign-language-translator".
-
-*/
-
-// Importing the k-Nearest Neighbors Algorithm
 import {
   KNNImageClassifier
 } from 'deeplearn-knn-image-classifier';
